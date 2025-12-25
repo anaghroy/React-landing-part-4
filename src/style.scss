@@ -365,8 +365,106 @@ body {
     a {
       color: #ffff;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 1.3rem;
       font-family: medium;
+    }
+  }
+}
+
+/*Engine Section*/
+.main-engine {
+  width: 100%;
+  padding: 10rem 5rem;
+  background: linear-gradient(to right, #0d0f14, #0e0606);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .content {
+    width: fit-content;
+    h1 {
+      font-size: 4rem;
+      color: #fff;
+    }
+  }
+  .span {
+    width: fit-content;
+    p {
+      font-size: 1.7rem;
+      color: #ff6d00;
+    }
+  }
+  .main-image {
+    width: 100%;
+    margin-top: 10%;
+    .image {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      img {
+        width: 60%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  .button-text {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // gap: 2rem;
+    justify-content: space-around;
+    margin-left: 25%;
+    // background-color: red;
+    .before {
+      width: fit-content;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1.5rem;
+      border: 0.1rem solid #858585;
+      border-radius: 20px;
+      padding: 0.5rem 1rem;
+      .icon-bg {
+        background-color: #858585;
+        border-radius: 10px;
+      }
+      .icon-org {
+        background-color: #95310e;
+        border-radius: 10px;
+      }
+      .icon-org2 {
+        background-color: #3cc7e4;
+        border-radius: 10px;
+      }
+      p {
+        color: #fff;
+        font-family: bold;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .graph-table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    .first-content {
+      width: 50%;
+      // background-color: red;
+      width: fit-content;
+      transform: translateY(100px);
+      padding: 2rem;
+      p {
+        font-size: 2rem;
+        color: #9B9D9C;
+        span {
+          color: #fff;
+          font-family: bold;
+        }
+      }
     }
   }
 }

@@ -352,6 +352,107 @@ body {
 .main-short .button a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: medium;
+}
+
+/*Engine Section*/
+.main-engine {
+  width: 100%;
+  padding: 10rem 5rem;
+  background: linear-gradient(to right, #0d0f14, #0e0606);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-engine .content {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.main-engine .content h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+.main-engine .span {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.main-engine .span p {
+  font-size: 1.7rem;
+  color: #ff6d00;
+}
+.main-engine .main-image {
+  width: 100%;
+  margin-top: 10%;
+}
+.main-engine .main-image .image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.main-engine .main-image .image img {
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.main-engine .button-text {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 25%;
+}
+.main-engine .button-text .before {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  border: 0.1rem solid #858585;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+.main-engine .button-text .before .icon-bg {
+  background-color: #858585;
+  border-radius: 10px;
+}
+.main-engine .button-text .before .icon-org {
+  background-color: #95310e;
+  border-radius: 10px;
+}
+.main-engine .button-text .before .icon-org2 {
+  background-color: #3cc7e4;
+  border-radius: 10px;
+}
+.main-engine .button-text .before p {
+  color: #fff;
+  font-family: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.main-engine .graph-table {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.main-engine .graph-table .first-content {
+  width: 50%;
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: translateY(100px);
+  padding: 2rem;
+}
+.main-engine .graph-table .first-content p {
+  font-size: 2rem;
+  color: #9B9D9C;
+}
+.main-engine .graph-table .first-content p span {
+  color: #fff;
+  font-family: bold;
 }/*# sourceMappingURL=style.css.map */
