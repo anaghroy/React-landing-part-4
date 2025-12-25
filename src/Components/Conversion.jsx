@@ -1,4 +1,4 @@
-import React from "react";
+
 import paid from "../assets/Images/PaidSearch0.png";
 const Conversion = ({ text, achieve }) => {
   return (

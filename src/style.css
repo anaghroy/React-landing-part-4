@@ -553,4 +553,134 @@ body {
 .main-conver .main-content .achive .first p span {
   font-size: 1.9rem;
   color: #787878;
+}
+
+/*Web Section*/
+.main-Web {
+  width: 100%;
+  background-color: #06080a;
+}
+.main-Web .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 5rem;
+  gap: 0.5rem;
+}
+.main-Web .text span {
+  font-size: 4rem;
+  color: white;
+  font-family: bold;
+}
+.main-Web .text .para {
+  color: #ff6d00;
+  font-size: 1.6rem;
+}
+.main-Web .text .button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  border: 0.1rem solid #d0d0d0;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+.main-Web .text .button span {
+  font-size: 1rem;
+}
+.main-Web .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 5rem;
+}
+.main-Web .container .left-content {
+  width: 50%;
+  height: 80.5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-bottom: 0.1rem solid rgba(205, 205, 205, 0.4470588235);
+}
+.main-Web .container .left-content h6 {
+  color: #fff;
+  font-size: 2rem;
+}
+.main-Web .container .left-content span {
+  color: #d0d0d0;
+  font-size: 1rem;
+}
+.main-Web .container .left-content .image {
+  width: 100%;
+  margin-top: auto;
+}
+.main-Web .container .left-content .image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-Web .container .right-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 0.1rem solid rgba(205, 205, 205, 0.4470588235);
+  border-bottom: 0.1rem solid rgba(205, 205, 205, 0.4470588235);
+  padding: 2rem;
+  /* Heights */
+}
+.main-Web .container .right-content h6 {
+  color: #fff;
+  font-size: 2rem;
+}
+.main-Web .container .right-content span {
+  color: #d0d0d0;
+  font-size: 1rem;
+}
+.main-Web .container .right-content .stats {
+  display: flex;
+  gap: 4rem;
+  padding: 4rem;
+  align-items: flex-end;
+  /* Bar base */
+}
+.main-Web .container .right-content .stats .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.main-Web .container .right-content .stats h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.main-Web .container .right-content .stats span {
+  color: #888;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-family: bold;
+}
+.main-Web .container .right-content .stats .bar {
+  width: 120px;
+  border-radius: 10px;
+}
+.main-Web .container .right-content .tall {
+  height: 260px;
+  background: linear-gradient(to bottom, #7a5c4a, #1f4ea1);
+}
+.main-Web .container .right-content .medium {
+  height: 80px;
+  background: #ff7a00;
+}
+.main-Web .container .right-content .small {
+  height: 40px;
+  background: #ff3d00;
 }/*# sourceMappingURL=style.css.map */

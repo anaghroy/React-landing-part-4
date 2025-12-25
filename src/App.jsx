@@ -6,6 +6,7 @@ import Rank from "./Components/Rank";
 import Seamless from "./Components/Seamless";
 import Services from "./Components/Services";
 import Shortest from "./Components/Shortest";
+import Web from "./Components/Web";
 import { achieve } from "./Data/AchiveData";
 import { logo } from "./Data/BrandImage";
 import { term } from "./Data/CapabiliData";
@@ -24,6 +25,7 @@ const App = () => {
       <Shortest />
       <Engine graph={graph} />
       <Conversion text={text} achieve={achieve}/>
+      <Web/>
     </div>
   );
 };
