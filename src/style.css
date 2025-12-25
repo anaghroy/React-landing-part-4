@@ -323,4 +323,35 @@ body {
 .main-capa .main-box .content-box p {
   color: #fff;
   font-size: 3rem;
+}
+
+/*Shortest Section*/
+.main-short {
+  width: 100%;
+  padding: 10rem 5rem;
+  background: linear-gradient(to right, #0d0f14, #2d1c0e, #0e0606);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.main-short .text {
+  font-size: 2rem;
+  color: #fff;
+}
+.main-short .text span {
+  color: #ff3e00;
+}
+.main-short .button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #ff3e00;
+}
+.main-short .button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: medium;
 }/*# sourceMappingURL=style.css.map */
