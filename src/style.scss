@@ -146,4 +146,36 @@ body {
       }
     }
   }
+  /*Brand-image*/
+  .main-brand {
+    width: 100%;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+    .first-image {
+      width: 10%;
+      height: 50%;
+      border-radius: 8px;
+      border: 0.1rem solid rgba(255, 255, 255, 0.547);
+      display: flex;
+      justify-content: center;
+      // background-color: rebeccapurple;
+      margin-top: 1%;
+      img {
+        width: 65%;
+
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+    .first-image:hover {
+      border: 0.1rem solid #ff9b50;
+      box-shadow: 1px 1px 10px #ff9c5099;
+      transition: all ease-in 0.3s;
+      cursor: pointer;
+    }
+  }
 }

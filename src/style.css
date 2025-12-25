@@ -76,6 +76,7 @@ body {
 .main-rank {
   width: 100%;
   background: conic-gradient(from 90deg at 0 0, #0c0e10, #ce400d, transparent 70%);
+  /*Brand-image*/
 }
 .main-rank .main-content {
   width: 50%;
@@ -135,4 +136,34 @@ body {
 }
 .main-rank .main-content .button .email-form button:hover {
   background: #ff541f;
+}
+.main-rank .main-brand {
+  width: 100%;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main-rank .main-brand .first-image {
+  width: 10%;
+  height: 50%;
+  border-radius: 8px;
+  border: 0.1rem solid rgba(255, 255, 255, 0.547);
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.main-rank .main-brand .first-image img {
+  width: 65%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.main-rank .main-brand .first-image:hover {
+  border: 0.1rem solid #ff9b50;
+  box-shadow: 1px 1px 10px rgba(255, 156, 80, 0.6);
+  transition: all ease-in 0.3s;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

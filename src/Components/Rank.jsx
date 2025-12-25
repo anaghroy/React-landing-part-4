@@ -1,4 +1,6 @@
-import React from "react";
+
+import BrandLogo from "./BrandLogo";
+import { logo } from "../Data/BrandImage";
 
 const Rank = () => {
   return (
@@ -17,6 +19,7 @@ const Rank = () => {
           </form>
         </div>
       </div>
+        <BrandLogo logo={logo}/>
     </div>
   );
 };
