@@ -152,7 +152,7 @@ body {
   border: 0.1rem solid rgba(255, 255, 255, 0.547);
   display: flex;
   justify-content: center;
-  margin-top: 1%;
+  margin-bottom: 1%;
 }
 .main-rank .main-brand .first-image img {
   width: 65%;
@@ -166,4 +166,70 @@ body {
   box-shadow: 1px 1px 10px rgba(255, 156, 80, 0.6);
   transition: all ease-in 0.3s;
   cursor: pointer;
+}
+
+/*Seamless Section*/
+.outer-content {
+  width: 100%;
+  background: conic-gradient(from 90deg at 0 0, #341910, #95310e, #341910, transparent 70%);
+}
+.outer-content .main-content {
+  width: 100%;
+  border-radius: 35px;
+  background-color: #d3d3d3;
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.outer-content .main-content h1 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: regular;
+  margin-top: 10%;
+  color: #2d2d2d;
+}
+.outer-content .main-content .text {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.outer-content .main-content .text p {
+  font-size: 4rem;
+  font-family: medium;
+  line-height: 1.1;
+  background: linear-gradient(to right, #183c7d, #4f4b52, #da6e19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.outer-content .main-content .para {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.outer-content .main-content .para p {
+  font-size: 1.5rem;
+  font-family: medium;
+}
+.outer-content .main-content .main-table {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.outer-content .main-content .main-table .part {
+  width: 100%;
+  border: 0.1rem solid #bebebe;
+}
+.outer-content .main-content .main-table .part .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 4rem;
+}
+.outer-content .main-content .main-table .part .content h6 {
+  font-size: 1.5rem;
+  color: #212121;
+}
+.outer-content .main-content .main-table .part .content p {
+  font-size: 1.5rem;
+  color: #787878;
 }/*# sourceMappingURL=style.css.map */
