@@ -72,4 +72,67 @@ body {
   font-family: bold;
 }
 
-/*Rank Section*//*# sourceMappingURL=style.css.map */
+/*Rank Section*/
+.main-rank {
+  width: 100%;
+  background: conic-gradient(from 90deg at 0 0, #0c0e10, #ce400d, transparent 70%);
+}
+.main-rank .main-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+  padding: 5rem;
+  gap: 1rem;
+}
+.main-rank .main-content span {
+  font-size: 5rem;
+  font-family: bold;
+  color: #fff;
+}
+.main-rank .main-content p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+.main-rank .main-content .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(105, 53, 37, 0.6274509804);
+  border-radius: 14px;
+}
+.main-rank .main-content .button .email-form {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.main-rank .main-content .button .email-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 14px 16px;
+}
+.main-rank .main-content .button .email-form input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-rank .main-content .button .email-form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-rank .main-content .button .email-form button {
+  background: #ff3e00;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.main-rank .main-content .button .email-form button:hover {
+  background: #ff541f;
+}/*# sourceMappingURL=style.css.map */
