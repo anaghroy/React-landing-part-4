@@ -450,9 +450,107 @@ body {
 }
 .main-engine .graph-table .first-content p {
   font-size: 2rem;
-  color: #9B9D9C;
+  color: #9b9d9c;
 }
 .main-engine .graph-table .first-content p span {
   color: #fff;
   font-family: bold;
+}
+
+/*Conversion Section*/
+.main-conver {
+  width: 100%;
+  background: linear-gradient(to right, #0d0f14, #0e0606);
+}
+.main-conver .main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 30px;
+  background-color: #d0d0d0;
+  padding: 10rem 5rem;
+}
+.main-conver .main-content h1 {
+  width: 35%;
+  color: #212121;
+  font-family: bold;
+  font-size: 4rem;
+}
+.main-conver .main-content .row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 8%;
+  padding: 0rem 5rem;
+}
+.main-conver .main-content .row .first-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 2rem;
+  width: 33%;
+}
+.main-conver .main-content .row .first-text h1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 3rem;
+}
+.main-conver .main-content .row .first-text p {
+  font-size: 2rem;
+  color: #0c0e10;
+}
+.main-conver .main-content .row .first-text p span {
+  color: #606060;
+}
+.main-conver .main-content .underline {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.1rem solid #4f4b52;
+  padding: 3rem;
+}
+.main-conver .main-content .paid {
+  width: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-conver .main-content .paid h1 {
+  width: 100%;
+  text-align: center;
+}
+.main-conver .main-content .paid span {
+  text-align: center;
+  font-size: 2rem;
+}
+.main-conver .main-content .paid .image {
+  width: 100%;
+  margin-top: 5%;
+}
+.main-conver .main-content .paid .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.main-conver .main-content .achive {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.main-conver .main-content .achive .first {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.main-conver .main-content .achive .first p {
+  font-size: 1.9rem;
+  color: #0c0e10;
+}
+.main-conver .main-content .achive .first p span {
+  font-size: 1.9rem;
+  color: #787878;
 }/*# sourceMappingURL=style.css.map */
