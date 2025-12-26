@@ -1,12 +1,16 @@
 import { ArrowBigDownDash, ArrowUpLeft } from "lucide-react";
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ formRef, navbarRef }) => {
+  const handleClick = () => {
+    formRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+  
   return (
     <div className="main-navbar">
       <div className="logo">
         <div className="main-left">
-          <div className="icon">
+          <div className="icon" ref={navbarRef}>
             <ArrowUpLeft color="#FF3E00" size={40} strokeWidth={3} />
             <h1>entlify</h1>
           </div>
@@ -17,7 +21,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="button">
-          <a href="#">Let's Talk</a>
+          <button onClick={handleClick}>Let's Talk</button>
         </div>
       </div>
     </div>

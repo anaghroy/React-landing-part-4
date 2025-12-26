@@ -66,10 +66,11 @@ body {
   margin-right: 7%;
   cursor: pointer;
 }
-.main-navbar .logo .button a {
+.main-navbar .logo .button button {
   text-decoration: none;
   color: #0c0e10;
   font-family: bold;
+  border: none;
 }
 
 /*Rank Section*/
@@ -171,7 +172,7 @@ body {
 /*Seamless Section*/
 .outer-content {
   width: 100%;
-  background: conic-gradient(from 90deg at 0 0, #341910, #95310e, #341910, transparent 70%);
+  background: radial-gradient(circle at 100%, #95310e, #30170f, 50%, #95310e, 50%, #95310e 75%);
 }
 .outer-content .main-content {
   width: 100%;

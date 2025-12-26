@@ -17,21 +17,24 @@ import { text } from "./Data/ConversionData";
 import { icons } from "./Data/developIcon";
 import { graph } from "./Data/GraphData";
 import { tableData } from "./Data/Table";
+import { useRef } from "react";
 import "./style.css";
 const App = () => {
+  const formRef = useRef(null);
+  const navbarRef = useRef(null);
   return (
     <div>
-      <Navbar />
+      <Navbar formRef={formRef} navbarRef={navbarRef} />
       <Rank logo={logo} />
       <Seamless tableData={tableData} />
       <Services />
       <Capabilities term={term} />
       <Shortest />
       <Engine graph={graph} />
-      <Conversion text={text} achieve={achieve}/>
-      <Web icons={icons} contentData={contentData}/>
-      <Gain/>
-      <Footer/>
+      <Conversion text={text} achieve={achieve} />
+      <Web icons={icons} contentData={contentData} />
+      <Gain />
+      <Footer formRef={formRef} navbarRef={navbarRef} />
     </div>
   );
 };

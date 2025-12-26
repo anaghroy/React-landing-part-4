@@ -69,10 +69,11 @@ body {
       align-items: center;
       margin-right: 7%;
       cursor: pointer;
-      a {
+      button {
         text-decoration: none;
         color: #0c0e10;
         font-family: bold;
+        border: none;
       }
     }
   }
@@ -183,14 +184,15 @@ body {
 /*Seamless Section*/
 .outer-content {
   width: 100%;
-  background: conic-gradient(
-    from 90deg at 0 0,
-    #341910,
+  background: radial-gradient(
+    circle at 100%,
     #95310e,
-    #341910,
-    transparent 70%
+    #30170f,
+    50%,
+    #95310e,
+    50%,
+    #95310e 75%
   );
-
   .main-content {
     width: 100%;
     border-radius: 35px;
@@ -513,14 +515,6 @@ body {
         }
       }
     }
-
-    // .underline {
-    //   width: 100%;
-    //   display: flex;
-    //   flex-direction: row;
-    //   border-bottom: 0.1rem solid #4f4b52;
-    //   padding: 3rem;
-    // }
     .paid {
       width: 100%;
       padding: 5rem 2rem;
@@ -933,7 +927,7 @@ body {
       .bottom-center {
         display: flex;
         gap: 2.5rem;
-        
+
         a {
           text-decoration: none;
           color: #222;
