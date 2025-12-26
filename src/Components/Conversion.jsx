@@ -1,5 +1,5 @@
 
-import paid from "../assets/Images/PaidSearch0.png";
+import paid from "../assets/Images/PaidSearch.png";
 const Conversion = ({ text, achieve }) => {
   return (
     <div className="main-conver">

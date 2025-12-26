@@ -8,9 +8,11 @@ import Services from "./Components/Services";
 import Shortest from "./Components/Shortest";
 import Web from "./Components/Web";
 import { achieve } from "./Data/AchiveData";
+import { contentData } from "./Data/BoostData";
 import { logo } from "./Data/BrandImage";
 import { term } from "./Data/CapabiliData";
 import { text } from "./Data/ConversionData";
+import { icons } from "./Data/developIcon";
 import { graph } from "./Data/GraphData";
 import { tableData } from "./Data/Table";
 import "./style.css";
@@ -25,7 +27,7 @@ const App = () => {
       <Shortest />
       <Engine graph={graph} />
       <Conversion text={text} achieve={achieve}/>
-      <Web/>
+      <Web icons={icons} contentData={contentData}/>
     </div>
   );
 };
