@@ -1,3 +1,5 @@
+import "./style.css";
+import "./Responsive.css";
 import Capabilities from "./Components/Capabilities";
 import Conversion from "./Components/Conversion";
 import Engine from "./Components/Engine";
@@ -18,8 +20,7 @@ import { icons } from "./Data/developIcon";
 import { graph } from "./Data/GraphData";
 import { tableData } from "./Data/Table";
 import { useRef } from "react";
-import "./style.css";
-import "./Responsive.css";
+
 const App = () => {
   const formRef = useRef(null);
   const navbarRef = useRef(null);
