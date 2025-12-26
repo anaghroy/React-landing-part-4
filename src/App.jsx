@@ -1,6 +1,7 @@
 import Capabilities from "./Components/Capabilities";
 import Conversion from "./Components/Conversion";
 import Engine from "./Components/Engine";
+import Footer from "./Components/Footer";
 import Gain from "./Components/Gain";
 import Navbar from "./Components/Navbar";
 import Rank from "./Components/Rank";
@@ -30,6 +31,7 @@ const App = () => {
       <Conversion text={text} achieve={achieve}/>
       <Web icons={icons} contentData={contentData}/>
       <Gain/>
+      <Footer/>
     </div>
   );
 };
