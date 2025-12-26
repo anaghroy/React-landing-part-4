@@ -595,7 +595,7 @@ body {
 }
 .main-Web .container .left-content {
   width: 50%;
-  height: 81vh;
+  height: 659px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
