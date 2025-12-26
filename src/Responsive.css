@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+  .main-navbar {
+    .logo {
+      margin-left: 2%;
+      padding: 0.8rem 1rem;
+
+      .main-left {
+        gap: 2rem;
+      }
+
+      .icon h1 {
+        font-size: 1.1rem;
+      }
+
+      .service h1 {
+        font-size: 0.95rem;
+      }
+
+      .button {
+        padding: 0.6rem 0.9rem;
+        margin-right: 12%;
+
+        button {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  .main-rank {
+    .main-content {
+      width: 70%;
+      margin-left: 10%;
+      padding: 4rem;
+
+      span {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+
+      .button {
+        .email-form {
+          input {
+            font-size: 15px;
+            padding: 12px 14px;
+          }
+
+          button {
+            padding: 14px 18px;
+            font-size: 0.95rem;
+          }
+        }
+      }
+    }
+
+    .main-brand {
+      gap: 0.1rem;
+
+      .first-image {
+        width: 10%;
+        margin-right: 4%;
+
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-navbar {
+    .logo {
+      margin-left: 1%;
+      padding: 0.7rem 0.8rem;
+
+      .main-left {
+        gap: 1.5rem;
+      }
+
+      .icon h1 {
+        font-size: 1rem;
+      }
+
+      .service h1 {
+        font-size: 0.9rem;
+      }
+
+      .button {
+        padding: 0.5rem 0.8rem;
+        margin-right: 5%;
+
+        button {
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
+  .main-rank {
+    margin: auto;
+    .main-content {
+      width: 80%;
+      margin-left: 10%;
+      padding: 3rem;
+
+      span {
+        font-size: 3.2rem;
+      }
+
+      p {
+        font-size: 1.15rem;
+      }
+
+      .button {
+        width: 100%;
+
+        .email-form {
+          flex-direction: column;
+          gap: 0.7rem;
+
+          input {
+            width: 100%;
+            text-align: center;
+          }
+
+          button {
+            width: 100%;
+            padding: 14px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    .main-brand {
+      padding: 1rem;
+
+      .first-image {
+        width: 18%;
+        margin-left: 10%;
+      }
+    }
+  }
+}

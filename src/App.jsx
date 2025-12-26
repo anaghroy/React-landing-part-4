@@ -19,6 +19,7 @@ import { graph } from "./Data/GraphData";
 import { tableData } from "./Data/Table";
 import { useRef } from "react";
 import "./style.css";
+import "./Responsive.css";
 const App = () => {
   const formRef = useRef(null);
   const navbarRef = useRef(null);
