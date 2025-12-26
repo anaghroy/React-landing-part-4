@@ -765,3 +765,45 @@ body {
     }
   }
 }
+/*Gain Section*/
+.main-gain {
+  width: 100%;
+  background: linear-gradient(to right, #0d0f14, #0e0606);
+
+  padding: 8rem;
+  .content {
+    width: 50%;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    p {
+      text-align: center;
+      font-size: 4rem;
+      color: #ff3e00;
+      font-family: bold;
+      span {
+        color: #fff;
+        font-size: 4rem;
+        font-family: bold;
+      }
+    }
+    .para {
+      padding: 2rem;
+      text-align: center;
+      p {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #d0d0d0;
+        font-family: medium;
+
+        span {
+          font-size: 1.5rem;
+          color: #fff;
+          font-family: medium;
+        }
+      }
+    }
+  }
+}

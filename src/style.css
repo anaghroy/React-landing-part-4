@@ -736,4 +736,44 @@ body {
 .main-Web .main-flex .content p span {
   font-size: 1.5rem;
   color: white;
+}
+
+/*Gain Section*/
+.main-gain {
+  width: 100%;
+  background: linear-gradient(to right, #0d0f14, #0e0606);
+  padding: 8rem;
+}
+.main-gain .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+}
+.main-gain .content p {
+  text-align: center;
+  font-size: 4rem;
+  color: #ff3e00;
+  font-family: bold;
+}
+.main-gain .content p span {
+  color: #fff;
+  font-size: 4rem;
+  font-family: bold;
+}
+.main-gain .content .para {
+  padding: 2rem;
+  text-align: center;
+}
+.main-gain .content .para p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #d0d0d0;
+  font-family: medium;
+}
+.main-gain .content .para p span {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: medium;
 }/*# sourceMappingURL=style.css.map */

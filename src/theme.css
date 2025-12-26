@@ -33,3 +33,17 @@
 body {
   user-select: none;
 }
+/*Globel Variable*/
+.button-btn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  justify-content: center;
+  background-color: #ff3e00;
+  a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: medium;
+  }
+}
